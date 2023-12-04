@@ -1,0 +1,5 @@
+defaultNamespace: test03
+kustomize:
+  dir: overlays
+helm:
+  takeOwnership: true
