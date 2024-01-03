@@ -1,3 +1,3 @@
 helm:
-  repo: https://github.com/skanaka0321/fleet_test.git
+  repo: https://github.com/skanaka0321/fleet_test/blob/main/nscreated/index.yaml
   chart: fleetignore
