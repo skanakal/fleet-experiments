@@ -1,0 +1,11 @@
+defaultNamespace: cert-manager
+helm:
+  repo: https://charts.jetstack.io
+  chart: cert-manager
+  version: "v1.10.2"
+  releaseName: cert-manager
+  values:
+    global:
+      environment: test
+  valuesFiles:
+    - values.yaml
